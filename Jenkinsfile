@@ -22,7 +22,7 @@ pipeline{
     post{
         always{
             echo 'success'
-            deleteDir()
+            //deleteDir()
         }
     }
 
